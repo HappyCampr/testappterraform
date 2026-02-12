@@ -4,6 +4,7 @@ provider "google" {
   credentials = var.credentials != "" ? var.credentials : null
 }
 
+
 resource "google_storage_bucket" "bucket" {
   name     = var.bucket_name
   project  = var.project
