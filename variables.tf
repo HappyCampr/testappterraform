@@ -20,3 +20,7 @@ variable "credentials" {
   default     = ""
   sensitive   = true
 }
+
+variable "test" {
+  description = "just testing"
+}
