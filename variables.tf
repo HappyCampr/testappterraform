@@ -3,6 +3,7 @@ variable "project" {
   type        = string
 }
 
+
 variable "region" {
   description = "Bucket region (multi-region like 'US' or region like 'us-central1')"
   type        = string
@@ -19,4 +20,8 @@ variable "credentials" {
   type        = string
   default     = ""
   sensitive   = true
+}
+
+variable "testing" {
+  description = can delete later
 }

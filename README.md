@@ -24,3 +24,4 @@ Notes:
 - Don't commit service account JSON to the repository; configure credentials in Spacelift or via environment variables.
 - Bucket names must be globally unique.
 
+
