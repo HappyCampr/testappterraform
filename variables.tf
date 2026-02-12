@@ -15,6 +15,7 @@ variable "bucket_name" {
   type        = string
 }
 
+
 variable "credentials" {
   description = "Service account JSON (optional; prefer using Spacelift workspace connection or environment variables)"
   type        = string
