@@ -22,6 +22,3 @@ variable "credentials" {
   sensitive   = true
 }
 
-variable "testing" {
-  description = can delete later
-}
