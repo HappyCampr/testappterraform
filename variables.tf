@@ -22,3 +22,6 @@ variable "credentials" {
   sensitive   = true
 }
 
+variables "testing" {
+  description = "testing"
+}
